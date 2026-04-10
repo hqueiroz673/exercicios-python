@@ -1,0 +1,13 @@
+nota_portugues = float(input("Qual a sua nota de Português? "))
+nota_matematica = float(input("Qual a sua nota de Matemática? "))
+nota_historia = float(input("Qual a sua nota de História? "))
+nota_ingles = float(input("Qual a sua nota de Inglês? "))
+media = (nota_portugues + nota_matematica + nota_historia + nota_ingles) / 4
+print(f'''
+    Suas notas foram:
+    Português:  {nota_portugues}
+    Matemática:  {nota_matematica}
+    História:  {nota_historia}
+    Inglês:  {nota_ingles}
+    Sua média é: {media}
+      ''')
