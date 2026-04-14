@@ -1,0 +1,6 @@
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+if idade < 18:
+    print(f"Você não pode acessar nosso site, {nome}")
+else:
+    print(f"Bem-vindo ao nosso site, {nome}!")
