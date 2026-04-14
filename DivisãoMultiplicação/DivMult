@@ -1,0 +1,6 @@
+N1 = float(input("Digite o primeiro número: "))
+N2 = float(input("Digite o segundo número: "))
+mult = N1 * N2
+div = N1 / N2
+print(f"O resultado da multiplicação é: {mult:.2f}")
+print(f"O resultado da divisão é: {div:.2f}")
